@@ -1,0 +1,77 @@
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome';
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+.container {
+    // background-color: yellow;
+    height: 100vh;
+}
+
+.mat_drawer-container {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #06020C;
+    background: radial-gradient(#0A0A0A 10%, #06020C);
+    // background: linear-gradient(45deg, #0A0A08 20%, #06020C);
+    margin: 0 auto;
+}
+
+.sidenav-content {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1.5em;
+    right: 0;
+}
+
+.sidenav_content-container {
+    display: inline-block;
+    justify-content: center;
+    margin: auto;
+    right: 0;
+    width: 100%;
+}
+
+.sidenav_container {
+    width: 15%;
+    // background-color: #EA00FF;
+    // background: -webkit-gradient(linear, left top, left bottom, color-stop(31%,#EA00FF), color-stop(100%,#d3f6fe));
+    // background: -webkit-linear-gradient(top,  #EA00FF 31%,#d3f6fe 100%);
+    // background: -moz-linear-gradient(top,  #EA00FF 31%, #d3f6fe 100%);
+    // background: -o-linear-gradient(top,  #EA00FF 31%,#d3f6fe 100%);
+    // background: -ms-linear-gradient(top,  #EA00FF 31%,#d3f6fe 100%);
+    // background: linear-gradient(to bottom,  #B71DDE 31%,#B026FF 100%);
+    background: linear-gradient(to bottom,  #7d12ff 33%,#B026FF 70%);
+    box-shadow: 2px 0 3px #C0C0C0;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+span {
+    background-color: #FBF8FD;
+    padding: .2em 1.25em;
+    margin: .2em;
+    display: block;
+}
+
+span:nth-child(1):hover {
+  transform: translateY(12px) rotate(135deg);
+}
+
+span:nth-child(2):hover {
+    transform: translateY(-12px) rotate(-135deg);
+  }
+
+span:nth-child(3):hover {
+    opacity: 0;
+  }
+
+p {
+    color: #FFFAFA;
+    position: absolute;
+    bottom: .2em;
+    padding-left: 1em;
+    z-index: 10;
+}

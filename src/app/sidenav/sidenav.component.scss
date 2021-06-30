@@ -1,0 +1,39 @@
+// @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+.sidenav {
+    padding: 2em;
+  h1 a {
+      text-decoration: none;
+      text-align: center;
+      font-size: 6.5rem;
+      line-height: 1;
+      color: #200589;
+      font-family: 'Teko', sans-serif;
+      font-weight: 800;
+  }
+.sidenav_link {
+    list-style-type: none;
+    padding: 1em;
+    a {
+        text-decoration: none;
+        font-size: 2em;
+        color: #FBF8FD;
+        background-color: transparent;
+    }
+   
+}
+
+a:hover {
+    color: #B026FF;
+    opacity: 50%;
+}
+}
+
+.social-media_container {
+    padding: 0 2em;
+    .icon {
+        padding: .25em;
+        cursor: pointer;
+        color: #fbf8fd;
+    }
+}

@@ -1,0 +1,17 @@
+.main_container {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    z-index: 100;
+    margin: auto;
+    // position: absolute;
+}
+
+h2 {
+    font-size: 3em;
+    color: #FFFAFA;
+    padding: 1em;
+}
