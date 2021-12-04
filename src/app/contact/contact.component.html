@@ -1,4 +1,11 @@
 <div class="main_container">
 <h2>Contact</h2>
 
+<form class="contactForm" #form="ngForm">
+<input id="name" required ngModel type="text" placeholder="name">
+<input id="email" required ngModel type="text" placeholder="email">
+<textarea id="message" required ngModel type="textarea" cols="50" rows="10" placeholder="Type your message here..."></textarea>
+<button type="submit" class="btn">Submit</button>
+</form> 
+
 </div>

@@ -1,0 +1,10 @@
+@import '../../app/app.component.scss';
+
+.mat-card {
+    width: 50%;
+    background-color: yellow;
+}
+
+.block:hover {
+    transform: scale(1.02);
+}

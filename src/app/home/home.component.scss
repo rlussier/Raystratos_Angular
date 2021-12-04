@@ -1,0 +1,28 @@
+@import '../../app/app.component.scss';
+
+h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    text-shadow: 0 0 2px #7D12FF, 3px 0 5px #B026FF;
+    color: #7D12FF;
+}
+
+.main_container-block {
+    padding: 0 5em;
+    p {
+        padding: 1em;
+    }
+}
+
+img {
+    width: 35%;
+    float: right;
+    transform: rotate(15deg);
+    border: 8px solid #FFFAFA;
+    box-shadow: 5px 2px 4px #FDFEFF;
+}
+
+img:hover {
+    transform: rotate(-2deg);
+    transition: 0.9s;
+}

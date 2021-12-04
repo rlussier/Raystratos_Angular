@@ -1,13 +1,39 @@
-.main_container {
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-    width: 50%;
-    height: 50%;
-    background-color: red;
-    z-index: 100;
-    margin: auto;
-    // position: absolute;
+@import '../../app/app.component.scss';
+
+.contactForm {
+    display: block;
+    width: 25%;
+    input {
+        padding: 10px;
+        // width: 60%;
+        font-size: 1.2rem;
+        // display: inline-block;
+        font-family:'arial';
+        // background-color: lightblue;
+        // background: linear-gradient(to bottom,  #7d12ff 33%,#B026FF 70%);
+        border-radius: 6px;
+        width: 500px;
+    }
+    #message {
+        font-size: 1.2rem;
+        font-family:'arial';
+        // background-color: lightblue;
+        // background: linear-gradient(to bottom,  #7d12ff 33%,#B026FF 70%);
+        border-radius: 6px;
+    }
+    input, #message {
+        margin: .25rem;
+        background: linear-gradient(75deg,  #7d12ff 40%,#B026FF 70%);
+    }
+    .btn {
+        padding: 5px 10px;
+        background: linear-gradient(to left,  #7d12ff 33%,#B026FF 70%);
+        // background-color: blue;
+        font-size: 1.25em;
+        margin: 0 6px;
+        border: none;
+        box-shadow: 0 0 5px cyan, 0 0 5px lightblue;
+    }
 }
 
 h2 {
